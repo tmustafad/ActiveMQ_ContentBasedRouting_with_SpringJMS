@@ -2,14 +2,12 @@
 
 
 ##The Use Case
-Create a Scheduler (this is not relevant with the topic of this article, this is just for simulating the load of the application ) and call the message producer based on the timestamp
-Create a message
-Create an header property and a value for the message
-Set required properties of the message header with post message processor(replyTo etc.)
-Send this message to ActiveMQ
-According to the header property set before producing message,consume this message or not.
-The project Structure
-As you see below picture ,this is a maven project ,the skeleton is created via start.spring.io
+* Create a Scheduler (this is not relevant with the topic of this article, this is just for simulating the load of the application ) and call the message producer based on the timestamp
+* Create a message
+* Create an header property and a value for the message
+* Set required properties of the message header with post message processor(replyTo etc.)
+* Send this message to ActiveMQ
+* According to the header property set before producing message,consume this message or not.
 
 
 ##Maven dependencies
