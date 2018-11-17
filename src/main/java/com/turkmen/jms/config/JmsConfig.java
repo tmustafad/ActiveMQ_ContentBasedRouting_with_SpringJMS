@@ -35,7 +35,6 @@ public class JmsConfig {
         jmsTemplate.setConnectionFactory(connectionFactory());
         jmsTemplate.setDefaultDestination(new ActiveMQQueue(Constants.QUEUE_TEST));
         jmsTemplate.setDeliveryPersistent(false);
-        jmsTemplate.setTimeToLive(50000);
         jmsTemplate.setSessionAcknowledgeMode(Session.AUTO_ACKNOWLEDGE);
 
         return jmsTemplate;
