@@ -2,6 +2,7 @@
 
 
 ##The Use Case
+
 Create a Scheduler (this is not relevant with the topic of this article, this is just for simulating the load of the application ) and call the message producer based on the timestamp
 Create a message
 Create an header property and a value for the message
